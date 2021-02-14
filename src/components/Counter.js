@@ -1,34 +1,25 @@
-import React, { Component }from 'react';
+import React from 'react';
 
-class Counter extends Component {
-    state = {
-      score: 0,
-    };
-    incrementScore = () => {
-      this.setState((prevState) => ({ score: prevState.score + 1 }));
-    };
-    decrementScore = () => {
-      this.setState((prevState) => ({ score: prevState.score - 1 }));
-    };
-    render() {
+const Counter = (props) => {
+    const index = props.index;
       return (
         <div className="counter">
           <button
             className="counter-action decrement"
-            onClick={this.decrementScore}
+            onClick={() => props.handleScoreUpdate(index,-1)}
           >
             -
           </button>
-          <span className="counter-score">{this.state.score}</span>
+          <span className="counter-score">{props.score}</span>
           <button
             className="counter-action increment"
-            onClick={this.incrementScore}
+            onClick={() => props.handleScoreUpdate(index,1)}
           >
             +
           </button>
         </div>
       );
     }
-  }
+  
 
   export default Counter;
