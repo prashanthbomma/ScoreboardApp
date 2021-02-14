@@ -7,6 +7,7 @@ I did this mini react project as part of learning react, which is a JavaScript l
   - Add new players to the scoreboard
   - Remove existing players from the scoreboard
   - Update (increment/decrement) scores of each player
+  - Display Stats that includes total count of players and their total scores
 
 ### Tech
 
