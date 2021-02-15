@@ -8,6 +8,7 @@ I did this mini react project as part of learning react, which is a JavaScript l
   - Remove existing players from the scoreboard
   - Update (increment/decrement) scores of each player
   - Display Stats that includes total count of players and their total scores
+  - Stopwatch to count duration for each player turn
 
 ### Tech
 
