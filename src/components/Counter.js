@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Counter = ({index,score,handleScoreUpdate}) => {
- 
       return (
         <div className="counter">
           <button
