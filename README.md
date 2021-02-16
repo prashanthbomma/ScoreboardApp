@@ -9,6 +9,7 @@ I did this mini react project as part of learning react, which is a JavaScript l
   - Update (increment/decrement) scores of each player
   - Display Stats that includes total count of players and their total scores
   - Stopwatch to count duration for each player turn
+  - Highlighta high score player with crown symbol
 
 ### Tech
 
